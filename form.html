@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shuffly - Feel the vibes</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Shuffly.jpg" alt="Shuffly"> Shuffly</li>
+            <li> <a href="/"> Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li><a href="form.html">Request a Song</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="contactform">
+            <h1>Contact for requesting a song</h1>
+            <form>
+                <div class="form-group">
+                  <label for="clientEmail1">Email address</label>
+                  <input type="email" class="form-control" id="clientEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="form-group">
+                  <label for="clientPassword1">Phone Number</label>
+                  <input type="phoneNo" class="form-control" id="clientPhone" placeholder="Phone Number">
+                </div>
+
+                <div class="form-group">
+                  <label for="clientsong">Song Name</label>
+                  <input type="songName" class="form-control" id="clientSong" placeholder="Enter Song">
+                </div>
+
+                <div class="form-group" id="form-check">
+                  <input type="checkbox" class="form-check-input" id="isrecruiter">
+                  <label class="form-check-label" for="isrecruiter">Developer Contact</label>
+                </div>
+                <button type="submit" class="btn btn-sm">Submit</button>
+              </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- INSERT INTO `music` (`S.no`, `Email`, `Phone`, `Song`, `Dt`) VALUES ('1', 'this@this.com', '9910603182', 'kesariya', current_timestamp()); -->
